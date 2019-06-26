@@ -19,3 +19,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# Heroku: Update database configuration from $DATABASE_URL.
