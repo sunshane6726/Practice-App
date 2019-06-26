@@ -1,7 +1,7 @@
 from django.contrib import admin
-from .models import Portpolio
+from .models import Portfolio
 
-admin.site.register(Portpolio)
+admin.site.register(Portfolio)
 
 
 

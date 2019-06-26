@@ -1,8 +1,8 @@
 from django.shortcuts import render
-from .models import Portpolio
+from .models import Portfolio
 
 
 
 def portfolio(request):
-    portfolios = Portpolio.objects   
+    portfolios = Portfolio.objects
     return render(request, 'portfolio/portpolio.html', {'portfolios':portfolios})
