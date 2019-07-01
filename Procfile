@@ -1,1 +1,1 @@
-web: gunicorn projectsecond_root.wsgi --log-file -
+web: gunicorn STARTPROJECTDIF.wsgi --log-file -
